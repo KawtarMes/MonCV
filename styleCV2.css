@@ -1,17 +1,27 @@
 
 
 
+
+ @import url('https://fonts.cdnfonts.com/css/bauhaus-light-bt');
+
+                
+                                                    
+
 body {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Bauhaus Light BT', sans-serif;
+                                                
+
 }
 
 .container {
+    padding: 0.5%;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 2fr;
-
+  
 }
 
 .colonneLeft {
@@ -19,19 +29,32 @@ body {
     padding: 10px;
 }
 
-.coordonnées {
-  font-size: 5px;
- 
+h1{
+   font-size: 3.5em;
 }
 
+i{
+    font-size:xx-large;
+}
+
+pre{
+    font-family: 'Bauhaus Light BT', sans-serif;
+}
+
+h3, h4 {
+    font-size: 
+    1.5em;
+}
+
+li, p {
+    font-size: larger;
+}
 .colonneRight {
     position:right;
     padding: 5%;
 }
 
-.container {
-    font-family: Arial, Helvetica, sans-serif;
-}
 @media screen and (min-width:935px){
    
 }
+
